@@ -1,0 +1,11 @@
+-- server/schema.sql
+CREATE TABLE IF NOT EXISTS songs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  title TEXT NOT NULL,
+  artist TEXT NOT NULL,
+  link TEXT,
+  votes INTEGER NOT NULL DEFAULT 0,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_songs_votes ON songs(votes);

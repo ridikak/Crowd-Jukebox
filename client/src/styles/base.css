@@ -1,0 +1,13 @@
+:root{
+  --bg:#0f1220; --fg:#e8ecf1; --muted:#9ba7b4; --card:#171b2e; --accent:#7aa2f7; --accent-2:#a7c7ff; --danger:#ff6b6b;
+}
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{margin:0;background:radial-gradient(1200px 600px at 20% -10%, #1a1f37, transparent), var(--bg);color:var(--fg);font:16px/1.4 system-ui,Segoe UI,Roboto,Ubuntu,Helvetica,Arial}
+a{color:var(--accent)}
+.wrap{max-width:900px;margin:40px auto;padding:0 16px}
+h1{margin:0 0 8px}
+.subtitle{margin:0 0 20px;color:var(--muted)}
+footer{margin:40px 0;color:var(--muted);font-size:13px;text-align:center}
+.loading,.empty,.error{padding:12px 14px;border-radius:10px;background:var(--card);border:1px solid rgba(255,255,255,.06)}
+.error{border-color:#ff8484;background:rgba(255,107,107,.08)}
