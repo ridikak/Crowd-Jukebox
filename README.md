@@ -1,6 +1,6 @@
 # 🎵 Crowd Jukebox
 
-Simple, cool full‑stack project with **React + CSS**, **Express**, and **SQLite** — no heavy libraries, no ORM, no state manager.
+**React + CSS**, **Express**, and **SQLite**
 
 ## Features
 - Add songs (title, artist, optional link)
