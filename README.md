@@ -28,7 +28,3 @@ npm run dev   # Vite dev server (default http://localhost:5173)
 ## Deploying
 - Server can be deployed to Render/Railway; the SQLite file `jukebox.db` will be created on first run.
 - Client can be deployed to Netlify/Vercel; set `VITE_API_BASE` to your server URL.
-
----
-
-Made with ❤️ using React, Express & SQLite.
