@@ -1,4 +1,4 @@
-# Server (Express + SQLite)
+# Server (Express & SQLite)
 
 ## Setup
 ```bash
