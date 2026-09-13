@@ -1,4 +1,4 @@
-# Client (React + Vite)
+# Client (React & Vite)
 
 ## Run
 ```bash
